@@ -22,7 +22,7 @@ on:
       - iotdb
 
 env:
-  HUB: ghcr.io/LIU-WEI-git/skywalking-showcase
+  HUB: ghcr.io/liu-wei-git/skywalking-showcase
 
 jobs:
   build:
