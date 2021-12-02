@@ -21,7 +21,7 @@ comma := ,
 .EXPORT_ALL_VARIABLES:
 
 DOCKER_BUILDKIT ?= 1
-HUB ?= ghcr.io/apache/skywalking-showcase
+HUB ?= ghcr.io/LIU-WEI-git/skywalking-showcase
 TAG ?= $(shell git rev-parse --short HEAD)
 
 ES_IMAGE ?= docker.elastic.co/elasticsearch/elasticsearch-oss:7.10.0

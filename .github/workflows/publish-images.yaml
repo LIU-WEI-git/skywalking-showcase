@@ -22,11 +22,11 @@ on:
       - main
 
 env:
-  HUB: ghcr.io/apache/skywalking-showcase
+  HUB: ghcr.io/LIU-WEI-git/skywalking-showcase
 
 jobs:
   build:
-    if: github.repository == 'apache/skywalking-showcase'
+    if: github.repository == 'LIU-WEI-git/skywalking-showcase'
     runs-on: ubuntu-latest
     permissions:
       contents: read
